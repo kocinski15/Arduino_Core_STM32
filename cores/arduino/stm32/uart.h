@@ -73,6 +73,7 @@ struct serial_s {
   PinName pin_rx;
   PinName pin_rts;
   PinName pin_cts;
+  PinName pin_de;
   IRQn_Type irq;
   uint8_t index;
   uint8_t recv;
