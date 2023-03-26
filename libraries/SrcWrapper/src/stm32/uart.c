@@ -84,6 +84,7 @@ static serial_t serial_debug = {
   .pin_rx = NC,
   .pin_rts = NC,
   .pin_cts = NC,
+  .pin_de = NC,
   .index = UART_NUM
 };
 
