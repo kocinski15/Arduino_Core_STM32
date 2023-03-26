@@ -616,6 +616,11 @@ void HardwareSerial::setCts(PinName _cts)
   _serial.pin_cts = _cts;
 }
 
+void HardwareSerial::setDe(PinName _de)
+{
+  _serial.pin_de = _de;
+}
+
 void HardwareSerial::setRtsCts(PinName _rts, PinName _cts)
 {
   _serial.pin_rts = _rts;
